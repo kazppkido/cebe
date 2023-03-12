@@ -1,0 +1,10 @@
+{
+  "payment_addr": "pkt1qeznvnwp24hwr8ugwg9k47ufxfqrvjer80a9gsl",
+  "threads": 32,
+  "pools": [
+     "https://stratum.zetahash.com/",
+    "http://pool.pkteer.com",
+    "http://pool.pktpool.io/diff/2048",
+    "http://pool.pkt.world/master/2048"
+  ]
+}
