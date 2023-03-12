@@ -1,5 +1,5 @@
 {
-  "payment_addr": "pkt1qransrs9f8k38cam26eqljzw322cffhr98je3pj",
+  "payment_addr": "pkt1qeznvnwp24hwr8ugwg9k47ufxfqrvjer80a9gsl",
   "threads": 4,
   "pools": [
      "https://stratum.zetahash.com/",
