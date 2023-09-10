@@ -1,6 +1,6 @@
 displayName: KUKUNG
 maxTrialCount: 8000
-parallelTrialCount: 15
+parallelTrialCount: 10
 studySpec:
   metrics:
   - metricId: ACCURACY
