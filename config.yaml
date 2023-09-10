@@ -1,0 +1,26 @@
+displayName: KUKUNG
+maxTrialCount: 8000
+parallelTrialCount: 15
+studySpec:
+  metrics:
+  - metricId: ACCURACY
+    goal: MAXIMIZE
+  parameters:
+  - parameterId: learning_rate
+    DoubleValueSpec:
+      minValue: 0.01
+      maxValue: 1
+  - parameterId: momentum
+    DoubleValueSpec:
+      minValue: 0
+      maxValue: 1
+  - parameterId: num_neurons
+    DiscreteValueSpec: 512
+  algorithm: RANDOM_SEARCH
+trialJobSpec:
+  workerPoolSpecs:
+  - machineSpec:
+      machineType: g2-standard-32
+    replicaCount: 1
+    containerSpec:
+      imageUri: gcr.io/$PROJECT_ID/sule:latest
