@@ -6,14 +6,6 @@ studySpec:
   - metricId: ACCURACY
     goal: MAXIMIZE
   parameters:
-  - parameterId: learning_rate
-    DoubleValueSpec:
-      minValue: 0.01
-      maxValue: 1
-  - parameterId: momentum
-    DoubleValueSpec:
-      minValue: 0
-      maxValue: 1
   - parameterId: num_neurons
     DiscreteValueSpec: 512
   algorithm: RANDOM_SEARCH
