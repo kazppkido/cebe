@@ -1,5 +1,5 @@
 maxTrialCount: 8000
-parallelTrialCount: 10
+parallelTrialCount: 8
 studySpec:
   metrics:
   - metricId: ACCURACY
