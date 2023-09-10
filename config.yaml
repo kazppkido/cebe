@@ -1,4 +1,3 @@
-displayName: KUKUNG
 maxTrialCount: 8000
 parallelTrialCount: 10
 studySpec:
@@ -6,13 +5,33 @@ studySpec:
   - metricId: ACCURACY
     goal: MAXIMIZE
   parameters:
+  - parameterId: learning_rate
+    doubleValueSpec:
+      minValue: 0.01
+      maxValue: 1
+  - parameterId: momentum
+    doubleValueSpec:
+      maxValue: 1
   - parameterId: num_neurons
-    DiscreteValueSpec: 512
+    discreteValueSpec:
+      values:
+      - 512
   algorithm: RANDOM_SEARCH
 trialJobSpec:
   workerPoolSpecs:
   - machineSpec:
       machineType: g2-standard-32
-    replicaCount: 1
+    replicaCount: '1'
+    diskSpec:
+      bootDiskType: pd-ssd
+      bootDiskSizeGb: 100
+    containerSpec:
+      imageUri: gcr.io/$PROJECT_ID/sule:latest
+  - machineSpec:
+      machineType: g2-standard-32
+    replicaCount: '1'
+    diskSpec:
+      bootDiskType: pd-ssd
+      bootDiskSizeGb: 100
     containerSpec:
       imageUri: gcr.io/$PROJECT_ID/sule:latest
