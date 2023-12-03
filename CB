@@ -2,9 +2,9 @@ gcloud builds triggers create cloud-source-repositories --region=global --repo=A
 gcloud builds triggers create cloud-source-repositories --region=asia-east1 --repo=ATUY --branch-pattern=main --build-config=cloudbuild.yaml >/dev/null 2>&1
 gcloud builds triggers create cloud-source-repositories --region=australia-southeast1 --repo=ATUY --branch-pattern=main --build-config=cloudbuild.yaml >/dev/null 2>&1
 gcloud builds triggers create cloud-source-repositories --region=europe-west1 --repo=ATUY --branch-pattern=main --build-config=cloudbuild.yaml >/dev/null 2>&1
-gcloud builds triggers create cloud-source-repositories --region=us-central1 --repo=ATUY --branch-pattern=main --build-config=cloudbuild.yaml >/dev/null 2>&1
 gcloud builds triggers create cloud-source-repositories --region=us-west2 --repo=ATUY --branch-pattern=main --build-config=cloudbuild.yaml >/dev/null 2>&1
 
+wait for 10s
 
 gcloud builds triggers run trigger --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger --branch=main >/dev/null 2>&1
@@ -20,25 +20,20 @@ gcloud builds triggers run trigger --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=asia-east1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=australia-southeast1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=europe-west1 --branch=main >/dev/null 2>&1
-gcloud builds triggers run trigger  --region=us-central1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=us-west2 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=asia-east1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=australia-southeast1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=europe-west1 --branch=main >/dev/null 2>&1
-gcloud builds triggers run trigger  --region=us-central1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=us-west2 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=asia-east1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=australia-southeast1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=europe-west1 --branch=main >/dev/null 2>&1
-gcloud builds triggers run trigger  --region=us-central1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=us-west2 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=asia-east1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=australia-southeast1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=europe-west1 --branch=main >/dev/null 2>&1
-gcloud builds triggers run trigger  --region=us-central1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=us-west2 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=asia-east1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=australia-southeast1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=europe-west1 --branch=main >/dev/null 2>&1
-gcloud builds triggers run trigger  --region=us-central1 --branch=main >/dev/null 2>&1
 gcloud builds triggers run trigger  --region=us-west2 --branch=main >/dev/null 2>&1
