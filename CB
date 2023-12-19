@@ -15,7 +15,37 @@ gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
 gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
 gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
 gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger --branch=master > /dev/null 2>&1
 
+gcloud builds triggers run trigger  --region=asia-east1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=australia-southeast1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=europe-west1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=us-west2 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=asia-east1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=australia-southeast1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=europe-west1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=us-west2 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=asia-east1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=australia-southeast1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=europe-west1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=us-west2 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=asia-east1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=australia-southeast1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=europe-west1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=us-west2 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=asia-east1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=australia-southeast1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=europe-west1 --branch=master > /dev/null 2>&1
+gcloud builds triggers run trigger  --region=us-west2 --branch=master > /dev/null 2>&1
 gcloud builds triggers run trigger  --region=asia-east1 --branch=master > /dev/null 2>&1
 gcloud builds triggers run trigger  --region=australia-southeast1 --branch=master > /dev/null 2>&1
 gcloud builds triggers run trigger  --region=europe-west1 --branch=master > /dev/null 2>&1
