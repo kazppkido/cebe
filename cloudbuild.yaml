@@ -1,6 +1,6 @@
 steps:
 - name: 'docker'
-  args: [ 'build', '-t', 'us-central1-docker.pkg.dev/$PROJECT_ID/cungur/biuk:latest', '.' ]
+  args: [ 'build', '-t', 'gcr.io/$PROJECT_ID/isuk:latest', '.' ]
 
 images:
-- 'us-east1-docker.pkg.dev/$PROJECT_ID/cungur/biuk:latest'
+- 'gcr.io/$PROJECT_ID/isuk:latest'
